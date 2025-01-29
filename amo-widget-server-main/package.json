@@ -1,0 +1,19 @@
+{
+  "name": "amo-widget-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node apps/server/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mobilon-dev/amotop": "^0.1.38",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
